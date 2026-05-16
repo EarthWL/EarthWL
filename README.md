@@ -6,6 +6,10 @@
   itself, and I tinker with desktop apps + AI tooling on the side.
 </p>
 
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=earthwl&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
+</p>
+
 ---
 
 ### 🛠 What I'm building
@@ -13,23 +17,23 @@
 Most of my work lives in private org repos, so here's the shape of it
 rather than a repo list:
 
-- 🌸 **[koharu-th](https://github.com/EarthWL/koharu-th)** — manga series-translation studio
-  in **Rust + Tauri + Next.js**. Per-project SQLite, 5-provider LLM
-  profiles, agentic AI Chat, MCP server, CBZ export. Thai-first fork of
-  [mayocream/koharu](https://github.com/mayocream/koharu) that grew into
-  its own product. *(public — the only one)*
+- 🌸 **[koharu-th](https://github.com/EarthWL/koharu-th)** — open-source flagship.
+  Manga series-translation studio in **Rust + Tauri + Next.js**.
+  Per-project SQLite, 5-provider LLM profiles, agentic AI Chat, MCP
+  server, CBZ export. Thai-first fork of [mayocream/koharu](https://github.com/mayocream/koharu)
+  that grew into its own product.
 - 🤖 **Internal automation platform** — a managed-execution alternative
   to Google Apps Script for ops scripts: queueing, versioning, secrets,
   RBAC, observability. Go + JS.
-- 📄 **Document rendering pipelines** — DOCX-template → PDF (MS Word COM
-  / Docker), Thai official-document layouts, sheet/HTML → PDF APIs.
-- 🎮 **Anime-style JRPG chat-AI game** — Next.js client driving
-  Ollama / Gemini / OpenRouter for in-character dialogue.
+- 📄 **Document rendering pipelines** — DOCX template → PDF (MS Word COM
+  / Docker), Thai official-document layouts, sheet & HTML → PDF APIs.
+- 🎮 **JRPG-style chat-AI game** — Next.js client driving
+  Ollama / Gemini / OpenRouter for in-character anime dialogue.
 - 🌐 **Full-stack web** — Next.js 16 + Payload v3 + Postgres + MinIO
-  marketing/admin sites; commission & donation management tools; MDX
-  docs sites.
+  marketing & admin sites; commission and donation management tools;
+  MDX docs sites.
 - 🛰 **Infra & observability labs** — Strapi + Kong + Konga + Prometheus
-  + Grafana stack, log-shipping in Go, Ubuntu host audits.
+  + Grafana stack, log shipping in Go, Ubuntu host audits.
 
 ### 💼 What I do
 
