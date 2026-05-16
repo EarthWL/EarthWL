@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Wanadtapong Lalakorn (Earth)</h1>
-<h3 align="center">Business Transformation Consultant · Innovation Team Lead & Excutive Sales Engineer </h3>
+<h3 align="center">Business Transformation Consultant · Innovation Team Lead & Executive Sales Engineer </h3>
 
 <p align="center">
   Based in 🇹🇭 Thailand. I turn manual workflows into software that runs
