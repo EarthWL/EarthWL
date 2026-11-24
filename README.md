@@ -1,111 +1,114 @@
-<h1 align="center">Hi 👋, I'm Wanadtapong Lalakorn (Earth)</h1>
-<h3 align="center">Business Transformation Consultant · Innovation Team Lead & Executive Sales Engineer </h3>
+# Hi, I'm Earth 👋
 
-<p align="center">
-  Based in 🇹🇭 Thailand. I turn manual workflows into software that runs
-  itself, and I tinker with desktop apps + AI tooling on the side.
-</p>
+**Wanadtapong Lalakorn** · Nonthaburi, Thailand
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=earthwl&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
-</p>
+Most of what's here started with "I wonder how that works." I take a
+thing I use or need, then build my own version until I understand it:
+desktop apps, AI tooling, document pipelines, small web toys. Some
+become tools I use every day; some stay experiments.
 
 ---
 
-### 🛠 What I'm building
+## What I'm working on
 
-Most of my work lives in private org repos, so here's the shape of it
-rather than a repo list:
+### 🌸 Hiyori Studio · *in progress, not public yet*
 
-- 🌸 **[koharu-th](https://github.com/EarthWL/koharu-th)** — open-source flagship.
-  Manga series-translation studio in **Rust + Tauri + Next.js**.
-  Per-project SQLite, 5-provider LLM profiles, agentic AI Chat, MCP
-  server, CBZ export. Thai-first fork of [mayocream/koharu](https://github.com/mayocream/koharu)
-  that grew into its own product.
-- 🤖 **Internal automation platform** — a managed-execution alternative
-  to Google Apps Script for ops scripts: queueing, versioning, secrets,
-  RBAC, observability. Go + JS.
-- 📄 **Document rendering pipelines** — DOCX template → PDF (MS Word COM
-  / Docker), Thai official-document layouts, sheet & HTML → PDF APIs.
-- 🎮 **JRPG-style chat-AI game** — Next.js client driving
-  Ollama / Gemini / OpenRouter for in-character anime dialogue.
-- 🌐 **Full-stack web** — Next.js 16 + Payload v3 + Postgres + MinIO
-  marketing & admin sites; commission and donation management tools;
-  MDX docs sites.
-- 🛰 **Infra & observability labs** — Strapi + Kong + Konga + Prometheus
-  + Grafana stack, log shipping in Go, Ubuntu host audits.
+A desktop studio for translating manga into Thai, a series at a time.
+It began as a fork of [Koharu](https://github.com/mayocream/koharu) by
+mayocream and grew into an app of its own.
 
-### 💼 What I do
+- **The page pipeline:** text detection, OCR and inpainting on ONNX
+  Runtime (GPU through DirectML, CPU as fallback), with no cloud needed
+  for the images.
+- **A series, not a page:** a library of chapters, a glossary, a cast
+  of characters and a translation memory, so names and terms stay the
+  same from chapter 1 to chapter 160.
+- **Thai typesetting:** Thai line breaking from a word list, fitting
+  text into balloons, and a lettering engine for Thai sound effects
+  written in Rust (it also runs in the browser through WebAssembly).
+- **AI as a co-worker:** an MCP server so agents like Claude or Gemini
+  can translate, letter and check a chapter with the same tools I use,
+  plus an AI review that suggests better wordings that fit the box.
+- **Hand tools** for the last 10%: clone, heal and restore for what the
+  automatic cleaning misses.
 
-- Map legacy business processes and automate the boring parts.
-- R&D on digital-transformation tooling: AI/LLM integration, desktop
-  apps, internal platforms, document automation, observability.
+Rust · Tauri · React · TypeScript · ONNX Runtime · SQLite
 
-### 🌱 Currently learning
+### 📜 Archivist · *in progress, not public yet*
 
-**Go** (shipping it in two services) · deeper **Rust** (from koharu-th) ·
-LLM agent design
+A roleplay and storytelling chat app. It started as a small JRPG you
+play by talking, and became a place to talk with characters from
+community character cards, one-on-one, in a group or as a whole scene,
+or to play story modes like JRPG, mystery, horror and slice of life.
 
-### 💬 Ask me about
+- **Characters that remember:** an "archivist" keeps the story as it
+  goes: long-term memory, a sheet for each character, promises made in
+  conversation, even a character's private diary, so they still know
+  you a thousand turns later.
+- **Cards as they are written:** reads the common card formats
+  (SillyTavern, Chub, RisuAI), including their scripts and modules.
+- **Thai and English:** Thai narration written directly by the model,
+  or a translation layer for models that only write English.
+- **Any model:** local models through Ollama, or Gemini and OpenRouter.
 
-JavaScript · TypeScript · Google Apps Script · Rust / Tauri desktop
-apps · DOCX / PDF automation · Thai food 🍜
+Next.js · TypeScript · SQLite · Ollama
 
-### 📫 Reach me
+### 🎙️ Donari · *in progress, not public yet*
 
-[![Email](https://img.shields.io/badge/email-wanadtapong.earth%40outlook.co.th-D14836?logo=maildotru&logoColor=white)](mailto:wanadtapong.earth@outlook.co.th)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-earthwl-0A66C2?logo=linkedin&logoColor=white)](https://linkedin.com/in/earthwl)
+A stream community manager for streamers and VTubers. It started as a
+donation alert for one stream and kept growing.
 
----
+- **One place for a stream:** donations and Super Chats from
+  Streamlabs, YouTube and Twitch, a single live chat across platforms,
+  and the same viewer recognised on each of them.
+- **Alerts read aloud:** text-to-speech through Google, OpenAI or
+  Gemini (which picks a voice and a tone for each message), or a Thai
+  voice that runs locally.
+- **On screen:** twelve OBS overlay styles, end-of-stream credits, a
+  poll counted across YouTube, Twitch and Kick, and donation tiers that
+  switch OBS scenes or throw items at a VTube Studio model.
+- **Two ways to run:** a Windows desktop app that needs no cloud, or a
+  hosted mode for a small group of streamers, each with their own data.
 
-### 🧰 Tech I work with
+React · Node.js · Socket.io · SQLite · Electron · Docker
 
-**Languages**
+### 📱 [Kagami Cast](https://github.com/EarthWL/kagami-cast)
 
-<p>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rust/rust-original.svg" width="36" height="36" alt="Rust" title="Rust" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="36" height="36" alt="TypeScript" title="TypeScript" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="36" height="36" alt="JavaScript" title="JavaScript" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" width="36" height="36" alt="Go" title="Go" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="36" height="36" alt="Python" title="Python" />
-</p>
+Mirror an iPhone or iPad to a Windows PC: a small control panel around
+[UxPlay](https://github.com/FDH2/UxPlay), the open-source AirPlay
+server. Quality presets, GPU decoding, optional PIN pairing, and the
+picture sent straight into OBS Studio. No account, no telemetry.
 
-**Frontend / desktop**
-
-<p>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" width="36" height="36" alt="Next.js" title="Next.js" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" width="36" height="36" alt="React" title="React" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg" width="36" height="36" alt="Tailwind" title="Tailwind CSS" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" width="36" height="36" alt="Node.js" title="Node.js" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg" width="36" height="36" alt="Express" title="Express" />
-  <img src="https://www.vectorlogo.zone/logos/tauri/tauri-icon.svg" width="36" height="36" alt="Tauri" title="Tauri" />
-</p>
-
-**Data**
-
-<p>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="36" height="36" alt="PostgreSQL" title="PostgreSQL" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" width="36" height="36" alt="MySQL" title="MySQL" />
-  <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" width="36" height="36" alt="SQLite" title="SQLite" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" width="36" height="36" alt="MongoDB" title="MongoDB" />
-  <img src="https://www.vectorlogo.zone/logos/minio/minio-icon.svg" width="36" height="36" alt="MinIO" title="MinIO" />
-</p>
-
-**Infra / ops**
-
-<p>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="36" height="36" alt="Docker" title="Docker" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="36" height="36" alt="Linux" title="Linux" />
-  <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" width="36" height="36" alt="GCP" title="Google Cloud" />
-  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="36" height="36" alt="Git" title="Git" />
-  <img src="https://www.vectorlogo.zone/logos/grafana/grafana-icon.svg" width="36" height="36" alt="Grafana" title="Grafana" />
-  <img src="https://www.vectorlogo.zone/logos/prometheusio/prometheusio-icon.svg" width="36" height="36" alt="Prometheus" title="Prometheus" />
-  <img src="https://www.vectorlogo.zone/logos/konghq/konghq-icon.svg" width="36" height="36" alt="Kong" title="Kong" />
-</p>
+C · Windows · AirPlay
 
 ---
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=earthwl&show_icons=true&locale=en&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=earthwl&show_icons=true&locale=en&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
-</p>
+## Other things I've built
+
+Mostly private, kept here as a map of what I've been curious about:
+
+- **A script runner** in Go: queueing, versioning, secrets, roles and
+  logs for small Python jobs, my answer to "what if Apps Script were
+  mine."
+- **Thai documents:** a generator for Thai official-document layouts,
+  DOCX → PDF services, and a PDF signing service (PAdES).
+- **More stream toys**: a VTuber portal with a live schedule, and a
+  tarot-reading web app.
+- **Little utilities**: a Chrome extension that adds an ambient glow
+  around YouTube and Bilibili videos, and an observability lab with
+  Kong, Prometheus and Grafana.
+
+## Curious about lately
+
+On-device ML for images (detection, OCR, inpainting) · AI agents and
+MCP · Thai typography · Rust for desktop apps
+
+## Tools I reach for
+
+Rust · TypeScript · Go · Python · Tauri · React · Next.js · SQLite ·
+PostgreSQL · Docker
+
+---
+
+📫 [wanadtapong.earth@outlook.co.th](mailto:wanadtapong.earth@outlook.co.th) ·
+[LinkedIn](https://linkedin.com/in/earthwl)
